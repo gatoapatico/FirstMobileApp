@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #eef0f4;
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    font-family: inherit;
+    color: #432000;
+    background-color: #dce1eb;
+    font-size: inherit;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+button {
+    font-family: inherit;
+    color: #fdfdfd;
+    background-color: #ac485a;
+    font-size: inherit;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+button:active {
+    background-color: #7e3542;
+}
